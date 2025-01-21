@@ -7,10 +7,10 @@ Simple smart contract for a token with the basic functions for the most practica
 - @openzeppelin/contracts/token/ERC20/ERC20.sol
 
 ### Constructor Arguments:
-- _name
-- _symbol
-- _initialSupply
+- _name: The full name of the token
+- _symbol: The short name for the token or the ticker
+- _initialSupply: The number of tokens to be pre-minted or pre-created to the deployer address
 
 ### Functions:
-- mint
-- burn
+- mint: Privileged function to create or mint an X amount of token/s to a specified address
+- burn: External function to destroy an X amount of tokens from sender address
