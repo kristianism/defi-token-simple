@@ -2,6 +2,9 @@
 
 Simple smart contract for a token with the basic functions for the most practical application.
 
+### Solidity Version:
+- 0.8.20
+
 ### Imports:
 - @openzeppelin/contracts/access/Ownable.sol
 - @openzeppelin/contracts/token/ERC20/ERC20.sol
