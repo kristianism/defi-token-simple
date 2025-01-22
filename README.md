@@ -17,3 +17,5 @@ Simple smart contract for a token with the basic functions for the most practica
 ### Functions:
 - mint: Privileged function to create or mint an X amount of token/s to a specified address
 - burn: External function to destroy an X amount of tokens from sender address
+- Openzeppelin default Ownable functions
+- Openzeppelin default ERC20 functions
