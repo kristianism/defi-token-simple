@@ -14,11 +14,11 @@ contract TokenSimple is ERC20, Ownable {
 
         string memory _name, // Full name of the token
         string memory _symbol, // Short name of the token
-        uint256 _initialSupply // Number of tokens to be minted. Number format is in ether.
+        uint256 _initialSupply // Number of tokens to be minted. Expressed in wei.
 
     ) ERC20(_name, _symbol) Ownable (msg.sender) {
 
-        _mint(msg.sender, _initialSupply * 1e18);
+        _mint(msg.sender, _initialSupply);
     }
     
     // External privileged function to create or mint an X amount of tokens to a specified address.
