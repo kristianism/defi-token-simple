@@ -34,7 +34,5 @@ contract TokenSimple is ERC20, Ownable {
     /* Contracts by: Kristian
      * Any issues and/or suggestions, you may reach me via:
      * Github: https://github.com/kristianism,
-     * X (Twitter): https://x.com/defimagnate
     */
-
 }
